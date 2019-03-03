@@ -1,0 +1,44 @@
+body {
+    
+    background-image: url("../images/Disney.jpg");
+    background-size: cover;
+}
+
+.title {
+    font-size: 15vh;
+    font-family: 'WaltographRegular';
+    font-weight: bold;
+    color: white;
+}
+
+#startBtn {
+    background-color: rgb(221, 101, 141);
+}
+
+.question {
+    color: rgb(221, 101, 141);
+    /*font-weight: bold;*/
+    font-size: 20px;
+    background-color: white;
+    text-align: center;
+    border: 3px grey solid;
+    width: fit-content;
+    padding: 2px 10px 2px 10px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.answers {
+    color: white;
+    /*font-weight: bold;*/
+    font-size: 18px;
+    width: fit-content;
+    background-color: grey;
+    border: 2px white solid;
+    margin-top: 10px;
+    font-family: Impact, Charcoal, sans-serif;
+    padding: 2px 10px 0px 10px;
+}
+
+#submit {
+    background-color: rgb(221, 101, 141);
+}
